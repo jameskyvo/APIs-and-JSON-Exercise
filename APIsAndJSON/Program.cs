@@ -6,7 +6,7 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
-            const int NUMBEROFTALKS = 0;
+            const int NUMBEROFTALKS = 5;
             for(int i = 0; i < NUMBEROFTALKS; i++)
             {
                 RonVSKanyeAPI.PrintKanyeQuote();
