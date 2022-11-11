@@ -26,8 +26,7 @@ namespace APIsAndJSON
             var ronQuote = "Ron Swanson: " + JArray.Parse(ronResponse).ToString().Replace('[', ' ').Replace(']', ' ').Trim();
             Console.WriteLine(ronQuote);
         }
-        // Slows down the program at random intervals and prints "..."
-        public static void AwkwardSilence()
+        public static void SlowDialogue()
         {
             Random rnd = new Random();
             var lengthOfSilence = (rnd.Next(1, 5) * 1000);
